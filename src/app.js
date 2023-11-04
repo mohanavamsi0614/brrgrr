@@ -182,17 +182,7 @@ function renderIngredientsBoard() {
     document.querySelectorAll(".items")[4].style.display="none"
   }
 }
-//   console.log(document.querySelectorAll(".items"))
-//   for(let key in state){
-//     let x = document.querySelector(`.${key}`).style.display
-//     if(state[key]){
-//        x = "none"
-//     }else{
-//       x = "block"
-//     }
-//   }
-//   console.log(state)
-// }
+
 
 function renderPrice(){
   total=20

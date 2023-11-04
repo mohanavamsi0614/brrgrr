@@ -230,3 +230,9 @@ body {
 	font-family: Nunito Sans;
 	font-style: normal;
 }
+.items{
+    display: none;
+}
+#patty,#cheese,#tomato,#onion,#lettuce{
+    display: none;
+}
