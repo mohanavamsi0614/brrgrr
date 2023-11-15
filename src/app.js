@@ -151,7 +151,7 @@ function renderButtons() {
 }
 //Challenge 2 - Render only the items selected in the ingredients board based on the state
 function renderIngredientsBoard() { 
-  if (!state.Patty){
+  if (state.Patty){
     document.querySelectorAll(".items")[0].style.display="block"
   }
   else{
